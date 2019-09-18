@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="ON"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Off"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <ImageSwitcher
+        android:id="@+id/imageswticher"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </ImageSwitcher>
+
+
+</LinearLayout>
